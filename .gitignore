@@ -1,0 +1,33 @@
+# Игнорировать общие файлы и архивы
+common_files/
+
+# Общие правила для всех подпроектов
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.env.local
+creds/
+creds/service_account.json
+# IDE
+.vscode/
+.idea/
+# Логи
+*.log
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Исключить все подпроекты, кроме ArtBeauty_Telegram_Tilda_bot
+common_files/
+eleven_labs_voice_bot/
+gen pasw/
+mortgage_calculator/
+quadratic_equation_project/
+qwen_chatbot/
+recipe_bot/
+pasw_gener/
